@@ -1,0 +1,13 @@
+# Crea carpeta local
+mkdir hazlo-site && cd hazlo-site
+
+# Index.html generado por Kimi K2
+echo '<!doctype html>
+<title>Hazlo.Digital</title>
+<meta name="viewport" content="width=device-width">
+<style>body{font-family:sans-serif;margin:40px}</style>
+<h1>Tu Negocio Hazlo.Digital</h1>
+<p>Sin código, con IA 24/7</p>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@twilio/voice-sdk/dist/twilio.min.js"></script>
+' > index.html
